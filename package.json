@@ -1,0 +1,26 @@
+{
+  "name": "umeliy-govorun",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy:gh": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "autoprefixer": "^10.6.1",
+    "gh-pages": "^6.1.1",
+    "imagemin-avif": "^0.1.6",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-webp": "^8.0.0",
+    "jimp": "^1.6.1",
+    "postcss": "^8.5.28",
+    "sharp": "^0.35.5",
+    "vite": "^8.3.2",
+    "vite-plugin-imagemin": "^0.6.1"
+  }
+}
